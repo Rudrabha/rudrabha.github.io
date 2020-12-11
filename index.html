@@ -1,0 +1,511 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Rudrabha Mukhopadhyay</title>
+  
+  <meta name="author" content="Rudrabha Mukhopadhyay">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Rudrabha Mukhopadhyay</name>
+              </p>
+              <p>I am a Ph.D. Scholar at <a href="http://cvit.iiit.ac.in/">IIIT Hyderabad</a>, where I work on deep-learning, computer vision, multi-modal learning etc. My supervisors are Prof. <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a> and Prof. <a href="https://vinaypn.github.io/"> Vinay Namboodiri </a>.
+              </p>
+              <p>
+                The primary focus of my Ph.D. has been to look into problems involving two naturally linked modalities, lip movements, and speech. I have been actively involved in multiple projects in this area and have published various papers in top conferences like CVPR, ACM Multimedia, etc. My core interests have been exploring how these modalities interact with each other and thus generating one from the other. Furthermore, one of my recent projects dealt with using both of these modalities to enhance human speech. Before joining IIITH, I worked as an intern under Prof. <a href="http://iitj.ac.in/institute/index.php?id=director">Santanu Chaudhury</a> in CEERI, Pilani. During this period, I focused on image enhancement algorithms like image super-resolution, image inpainting, etc. I had published three papers during this stint.
+              </p>
+              <p style="text-align:center">
+              	<a href="mailto:radrabha.m@research.iiit.ac.in">Email: radrabha.m@research.iiit.ac.in</a>
+              </p>
+              <p style="text-align:center">
+                <a href="data/resume.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.co.in/citations?hl=en&user=sbkDAPcAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/RudrabhaM">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/Rudrabha/">Github</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/rudrabha-mukhopadhyay-b52b86156/">LinkedIn</a>
+
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/rm.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/rm.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+              <p>
+              	Most of my published papers focus on using concepts like self-supervision and try to exploit the natural correlation present between speech and lips. The image enhancement works that I did before joining IIITH did not also require manual labeling. <b>Authors marked with a * have an equal contribution in the research done.</b>   
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/avse.png' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/visual-speech-enhancement-without-a-real-visual-stream">
+                <papertitle>Visual Speech Enhancement Without A Real Visual Stream</papertitle>
+              </a>
+              <br>
+
+			  <a href="https://scholar.google.co.in/citations?user=cD8J2-kAAAAJ&hl=en">Sindhu Hegde*</a>, 
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>WACV, 2021</em>
+              <br>
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/visual-speech-enhancement-without-a-real-visual-stream">Project Page</a> /
+              <a href=#>Demo Video</a> /
+              <a href=#>Code</a> /
+              <a href=#>arXiv</a> /
+              <a href=#>CVF</a>
+              <p></p>
+              <p>
+              <b> Abstract: </b> In this work, we re-think the task of speech enhancement in unconstrained real-world environments. Current state-of-the-art methods use only the audio stream and are limited in their performance in a wide range of real-world noises. Recent works using lip movements as additional cues improve the quality of generated speech over ``audio-only" methods. But, these methods cannot be used for several applications where the visual stream is unreliable or completely absent. We propose a new paradigm for speech enhancement by exploiting recent breakthroughs in speech-driven lip synthesis. Using one such model as a teacher network, we train a robust student network to produce accurate lip movements that mask away the noise, thus acting as a ``visual noise filter". The intelligibility of the speech enhanced by our pseudo-lip approach is almost close (< 3\% difference) to the case of using real lips. This implies that we can exploit the advantages of using lip movements even in the absence of a real video stream. We rigorously evaluate our model using quantitative metrics as well as qualitative human evaluations. Additional ablation studies and a demo video in the supplementary material containing qualitative comparisons and results clearly illustrate the effectiveness of our approach. 
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()", bgcolor="#ffffd0">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/wav2lip.gif' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413532">
+                <papertitle>A Lip Sync Expert Is All You Need For Speech To Lip Generation In The Wild</papertitle>
+              </a>
+              <br>
+
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>ACM Multimedia, 2020 (Oral)</em>
+              <br>
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/a-lip-sync-expert-is-all-you-need-for-speech-to-lip-generation-in-the-wild/">Project Page</a> /
+              <a href="https://youtu.be/0fXaDCZNOJc">Demo Video</a> /
+              <a href="https://github.com/Rudrabha/Wav2Lip">Code</a> /
+              <a href="http://bhaasha.iiit.ac.in/lipsync/">Interactive Demo</a> /
+              <a href="https://arxiv.org/abs/2008.10010">arXiv</a> /
+              <a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413532">ACM DL</a>
+              <p></p>
+              <p>
+              <b> Abstract: </b> In this work, we investigate the problem of lip-syncing a talking face video of an arbitrary identity to match a target speech segment. Current works excel at producing accurate lip movements on a static image or videos of specific people seen during the training phase. However, they fail to accurately morph the lip movements of arbitrary identities in dynamic, unconstrained talking face videos, resulting in significant parts of the video being out-of-sync with the new audio. We identify key reasons pertaining to this and hence resolve them by learning from a powerful lip-sync discriminator. Next, we propose new, rigorous evaluation benchmarks and metrics to accurately measure lip synchronization in unconstrained videos. Extensive quantitative evaluations on our challenging benchmarks show that the lip-sync accuracy of the videos generated by our Wav2Lip model is almost as good as real synced videos. 
+              </p>
+              <p style="color:green;">
+              	<b> Please feel free to contact me for possible commercial usage of this project! We are in the process of filing a patent and also licinsing our model (we have a much better one than the one released).</b>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/lip2wav.gif' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Prajwal_Learning_Individual_Speaking_Styles_for_Accurate_Lip_to_Speech_Synthesis_CVPR_2020_paper.pdf">
+                <papertitle>Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis</papertitle>
+              </a>
+              <br>
+
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>CVPR, 2020</em>
+              <br>
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/speaking-by-observing-lip-movements">Project Page</a> /
+              <a href="https://www.youtube.com/watch?v=HziA-jmlk_4">Demo Video</a> /
+              <a href="https://github.com/Rudrabha/Lip2Wav">Code</a> /
+              <a href="https://arxiv.org/abs/2005.08209">arXiv</a> /
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Prajwal_Learning_Individual_Speaking_Styles_for_Accurate_Lip_to_Speech_Synthesis_CVPR_2020_paper.pdf">CVF</a>
+              <p></p>
+              <p>
+              <b> Abstract: </b> Humans involuntarily tend to infer parts of the conversation from lip movements when the speech is absent or corrupted by external noise. In this work, we explore the task of lip to speech synthesis, i.e., learning to generate natural speech given only the lip movements of a speaker. Acknowledging the importance of contextual and speaker-specific cues for accurate lip-reading, we take a different path from existing works. We focus on learning accurate lip sequences to speech mappings for individual speakers in unconstrained, large vocabulary settings. To this end, we collect and release a large-scale benchmark dataset, the first of its kind, specifically to train and evaluate the single-speaker lip to speech task in natural settings. We propose a novel approach with key design choices to achieve accurate, natural lip to speech synthesis in such unconstrained scenarios for the first time. Extensive evaluation using quantitative, qualitative metrics and human evaluation shows that our method is four times more intelligible than previous works in this space.  
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/TTS.png' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/text-to-speech-dataset-for-indian-languages">
+                <papertitle>
+                	IndicSpeech: Text-to-Speech Corpus for Indian Languages
+ 				</papertitle>
+              </a>
+              <br>
+
+			  <a href="https://blogs.iiit.ac.in/monthly_news/nimisha-srivastava/">Nimisha Srivastava</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>LREC, 2020</em>
+              <br>
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/text-to-speech-dataset-for-indian-languages">Project Page</a> /
+              <a href="https://forms.gle/p4RUG4E5FcyLXYiH9">Dataset</a> /
+              <a href="https://www.aclweb.org/anthology/2020.lrec-1.789/">Paper</a>
+              <p></p>
+              <p>
+              <b> Abstract: </b> India is a country where several tens of languages are spoken by over a billion strong population. Text-to-speech systems for such languages will thus be extremely beneficial for wide-spread content creation and accessibility. Despite this, the current TTS systems for even the most popular Indian languages fall short of the contemporary state-of-the-art systems for English, Chinese, etc. We believe that one of the major reasons for this is the lack of large, publicly available text-to-speech corpora in these languages that are suitable for training neural text-to-speech systems. To mitigate this, we release a 24 hour text-to-speech corpus for 3 major Indian languages namely Hindi, Malayalam and Bengali. In this work, we also train a state-of-the-art TTS system for each of these languages and report their performances. The collected corpus, code, and trained models are made publicly available. 
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/lipgan.gif' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1145/3343031.3351066">
+                <papertitle>Towards Automatic Face-to-Face Translation</papertitle>
+              </a>
+              <br>
+
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://jerinphilip.github.io/"> Jerin Philip </a>, 
+              <a href="https://abskjha.github.io/"> Abhishek Jha </a>, 
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>, 
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>ACM Multimedia, 2019 (Oral)</em>
+              <br>
+              <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/facetoface-translation">Project Page</a> /
+              <a href="https://www.youtube.com/watch?v=aHG6Oei8jF0&list=LL2W0lqk_iPaqSlgPZ9GNv6w">Demo Video</a> /
+              <a href="https://github.com/Rudrabha/LipGAN">Code</a> /
+              <a href="https://arxiv.org/abs/2003.00418">arXiv</a> /
+              <a href="https://dl.acm.org/doi/10.1145/3343031.3351066">ACM DL</a>
+              <p></p>
+              <p>
+              <b> Abstract: </b> In light of the recent breakthroughs in automatic machine translation systems, we propose a novel approach that we term as "Face-to-Face Translation". As today's digital communication becomes increasingly visual, we argue that there is a need for systems that can automatically translate a video of a person speaking in language A into a target language B with realistic lip synchronization. In this work, we create an automatic pipeline for this problem and demonstrate its impact on multiple real-world applications. First, we build a working speech-to-speech translation system by bringing together multiple existing modules from speech and language. We then move towards "Face-to-Face Translation" by incorporating a novel visual module, LipGAN for generating realistic talking faces from the translated audio. Quantitative evaluation of LipGAN on the standard LRW test set shows that it significantly outperforms existing approaches across all standard metrics. We also subject our Face-to-Face Translation pipeline, to multiple human evaluations and show that it can significantly improve the overall user experience for consuming and interacting with multimodal content across languages. 
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/irgun.png' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Sharma_IRGUN_Improved_Residue_CVPR_2018_paper.html">
+                <papertitle>
+                	IRGUN: Improved Residue Based Gradual Up-Scaling Network for Single Image Super Resolution
+ 				</papertitle>
+              </a>
+              <br>
+
+			  <a href="https://scholar.google.co.in/citations?user=deabq2AAAAAJ&hl=en">Manoj Sharma</a>, 
+              <strong>Rudrabha Mukhopadhyay</strong>,
+              <a href=#>Avinash Upadhyay</a>, 
+              <a href="https://scholar.google.co.in/citations?user=POiv5fIAAAAJ&hl=en">Sriharsha Koundinya</a>,
+              <a href="https://www.linkedin.com/in/ankit-shukla-43237657/?originalSubdomain=in">Ankit Shukla</a>,
+              <a href="http://iitj.ac.in/institute/index.php?id=director">Santanu Chaudhury</a>,
+              <br>
+              <em>CVPR Workshops, 2018</em>
+              <br>
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Sharma_IRGUN_Improved_Residue_CVPR_2018_paper.pdf">Paper</a> /
+              <a href="https://github.com/Rudrabha/8X-Super-Resolution">Code</a> /
+              <p></p>
+              <p>
+              <b> Abstract: </b> Convolutional neural network based architectures have achieved decent perceptual quality super resolution on natural images for small scaling factors (2X and 4X). However, image super-resolution for large magnification factors (8X) is an extremely challenging problem for the computer vision community. In this paper, we propose a novel Improved Residual based Gradual Up-Scaling Network (IRGUN) to improve the quality of the super-resolved image for a large magnification factor. IRGUN has a Gradual Upsampling and Residue-based Enhancment Network (GUREN) which comprises of series of Up-scaling and Enhancement blocks (UEB) connected end-to-end and fine-tuned together to give a gradual magnification and enhancement. Due to the perceptual importance of the luminance in super-resolution, the model is trained on luminance(Y) channel of the YCbCr image. Whereas, the chrominance components (Cb and Cr) channel is up-scaled using bicubic interpolation and combined with super-resolved Y channel of the image which is then converted to RGB. A cascaded 3D-RED architecture trained on RGB images is utilized to incorporate its inter-channel correlation. In addition to this, the training methodology is also presented in the paper. In the training procedure, the weights of the previous UEB are used in the next immediate UEB for faster and better convergence. Each UEB is trained on its respective scale by taking the output image of the previous UEB as input and corresponding HR image of the same scale as ground truth to the successive UEB. All the UEBs are then connected end-to-end and fine tuned. The IRGUN recovers fine details effectively at large (8X) magnification factors. The efficiency of IRGUN is presented on various benchmark datasets and at different magnification scales. 
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/hyperspectral.png' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.html">
+                <papertitle>
+                	2D-3D CNN Based Architectures for Spectral Reconstruction From RGB Images
+ 				</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.co.in/citations?user=POiv5fIAAAAJ&hl=en">Sriharsha Koundinya</a>,
+              <a href="https://scholar.google.com/citations?user=jvXy1cgAAAAJ&hl=en">Himanshu Sharma</a>,
+			  <a href="https://scholar.google.co.in/citations?user=deabq2AAAAAJ&hl=en">Manoj Sharma</a>, 
+              <a href=#>Avinash Upadhyay</a>, 
+              <a href=#>Raunak Manekar</a>, 
+              <strong>Rudrabha Mukhopadhyay</strong>,
+              
+              <a href="https://www.ceeri.res.in/profiles/abhijit-karmakar/">Abhijit Karmakar</a>,
+              <a href="http://iitj.ac.in/institute/index.php?id=director">Santanu Chaudhury</a>,
+              <br>
+              <em>CVPR Workshops, 2018</em>
+              <br>
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.pdf">Paper</a> 
+              <p></p>
+              <p>
+              <b> Abstract: </b> Hyperspectral cameras are used to preserve fine spectral details of scenes that are not captured by traditional RGB cameras, due to the gross quantization of radiance in RGB images. Spectral details provide additional information that improves the performance of numerous image based analytic applications, but due to high hyperspectral hardware cost and associated physical constraints, hyperspectral images are not easily available for further processing. Motivated by the success of deep learning for various computer vision applications, we propose a 2D convolution neural network and a 3D convolution neural network based approaches for hyper-spectral image reconstruction from RGB images. A 2D-CNN model primarily focuses on extracting spectral data by considering only spatial correlation of the channels in the image, while in 3D-CNN model the inter-channel co-relation is also exploited to refine the extraction of spectral data. Our 3D-CNN based architecture achieves state-of-the-art performance in terms of MRAE and RMSE. In contrast of 3D-CNN, our 2D-CNN based architecture also achieves performance near by state-of-the-art with very less computational complexity.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:0px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/sr_inpainting.png' width="270">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-13-0020-2_18">
+                <papertitle>
+                	An End-to-End Deep Learning Framework for Super-Resolution Based Inpainting
+ 				</papertitle>
+              </a>
+              <br>
+			  <a href="https://scholar.google.co.in/citations?user=deabq2AAAAAJ&hl=en">Manoj Sharma</a>, 
+              <strong>Rudrabha Mukhopadhyay</strong>,
+              <a href="http://iitj.ac.in/institute/index.php?id=director">Santanu Chaudhury</a>,
+              <a href="https://web.iitd.ac.in/~brejesh/">Brejesh Lall</a>,
+
+              <br>
+              <em>NCVPRIPG, 2017</em>
+              <br>
+              <a href="https://link.springer.com/content/pdf/10.1007%2F978-981-13-0020-2_18.pdf">Paper</a> 
+              <p></p>
+              <p>
+              <b> Abstract: </b> Image inpainting is an extremely challenging and open problem for the computer vision community. Motivated by the recent advancement in deep learning algorithms for computer vision applications, we propose a new end-to-end deep learning based framework for image inpainting. Firstly, the images are down-sampled as it reduces the targeted area of inpainting therefore enabling better filling of the target region. A down-sampled image is inpainted using a trained deep convolutional auto-encoder (CAE). A coupled deep convolutional auto-encoder (CDCA) is also trained for natural image super resolution. The pre-trained weights from both of these networks serve as initial weights to an end-to-end framework during the fine tuning phase. Hence, the network is jointly optimized for both the aforementioned tasks while maintaining the local structure/information. We tested this proposed framework with various existing image inpainting datasets and it outperforms existing natural image blind inpainting algorithms. Our proposed framework also works well to get noise resilient super-resolution after fine-tuning on noise-free super-resolution dataset. It provides more visually plausible and better resultant image in comparison of other conventional and state-of-the-art noise-resilient super-resolution algorithms.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Public Demos</heading>
+              <p>
+              	I have also presented our works in the form of demonstrations, at various conferences. Our demos has been well received and instrumental in increasing the visibility of the papers beyond the conferences we published them.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/eccv_demo.jpg' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://sites.google.com/view/interplay-of-speech-and-lips">
+                <papertitle>The Interplay of Speech and Lip Movements</papertitle>
+              </a>
+              <br>
+
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>ECCV Demonstrations, 2020</em>
+              <br>
+              <a href="https://sites.google.com/view/interplay-of-speech-and-lips">Website</a> /
+              <a href="https://www.youtube.com/watch?v=SnLonyyykeY&feature=youtu.be">Demo Video</a> /
+              <a href="data/eccv_demo.pdf">Abstract</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/icpr_demo.jpg' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://sites.google.com/view/interplay-of-speech-and-lips">
+                <papertitle>The Interplay of Speech and Lip Movements</papertitle>
+              </a>
+              <br>
+
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              <a href="https://scholar.google.co.in/citations?user=cD8J2-kAAAAJ&hl=en">Sindhu Hegde*</a>, 
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>ICPR Demonstrations, 2020</em>
+              <br>
+              <a href="https://sites.google.com/view/interplay-of-speech-and-lips">Website</a> /
+              <a href=#>Demo Video (Will be updated)</a> /
+              <a href="data/icpr_demo.pdf">Demo Writeup</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/lip2wav_vi.jpg' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href=#>
+                <papertitle>Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis</papertitle>
+              </a>
+              <br>
+
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>ICVGIP Vision-India Session, 2020</em>
+              <br>
+              <a href=#>Videos & Materials</a> /
+              <a href=#>Slides</a>
+              <p></p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/f2f_vi.png' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/drive/folders/18C2po2vVAMSyfOeGYCUJhFuIPVO9J5lb?usp=sharing">
+                <papertitle>Towards Automatic Face-to-Face Translation</papertitle>
+              </a>
+              <br>
+
+              <strong>Rudrabha Mukhopadhyay*</strong>,
+              <a href="https://scholar.google.co.in/citations?user=C-wGb2sAAAAJ&hl=en">K R Prajwal*</a>, 
+              
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="http://cvit.iiit.ac.in/people/faculty/cvit-faculty/jawahar">C.V. Jawahar</a>,
+              <br>
+              <em>NCVPRIPG Vision-India Session, 2019</em>
+              <br>
+              <a href="https://drive.google.com/drive/folders/18C2po2vVAMSyfOeGYCUJhFuIPVO9J5lb?usp=sharing">Videos & Materials</a> /
+              <a href="data/f2f.pdf">Slides</a>
+              <p></p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Grants</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/google.png' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+            	<papertitle>Google Travel Grant</papertitle>
+            	<p>
+            		I received a grant to travel to Nice, France and attend ACM Multimedia, 2019. I had an oral presentation in the conference for our paper titled, "Towards Automatic Face-to-Face Translation". 
+            	</p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Volunteery Services</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="nerd_stop()" onmouseover="nerd_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <img src='images/wacv.png' width="250">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+            	<papertitle>Reviewer in WACV 2021</papertitle>
+            	<p>
+            		I acted as a reviewer in WACV, 2021 and reviewed two papers for the conference organizers.  
+            	</p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        	<p>
+        		The website has been designed based on <a href="https://jonbarron.info/">https://jonbarron.info/</a>. I thank him for the wonderful source code he provided. 
+        	</p>
+        </tbody></table>
+
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
